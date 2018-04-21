@@ -1,6 +1,5 @@
 import React from 'react';
-import database from '../firebase/firebase';
-import getInvite from '../actions/getInvite'
+
 
 class Invite extends React.Component{
    constructor() {
@@ -63,14 +62,26 @@ class Invite extends React.Component{
                 </div>
             </div>
             <div className="meeting-list">
-              <h2>Guests</h2>
+              <h2>Playlist</h2>
               {guests && guests.length > 0 ? (
                 <ul>
                   {guests.map((guest, index) => {
                     return (
+                      <div>
                       <li key={index}>
                         {guest.name}
                       </li>
+                      <input
+                      type="text"
+                      value="nombre de canción"
+                      onChange={e => this.setState({ name: e.target.value })}/>
+                     <p>Songs</p>
+                     
+                     
+                     
+                     
+                     
+                      </div>
                     );
                   })}
                 </ul>

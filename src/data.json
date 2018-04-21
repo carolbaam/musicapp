@@ -1,21 +1,36 @@
-{
-    "agenda" : "Business meeting for the next Facebook",
-    "guests" : {
-      "-KUDHLoA79LzYXsXLNZM" : {
-        "name" : "Dustin Moskovitz"
-      },
-      "-KUDHPgsYqOVcC-Db7-W" : {
-        "name" : "Eduardo Saverin"
-      },
-      "-KUDHS9kUXPYWN8aqD6A" : {
-        "name" : "Chris Hughes"
-      },
-      "-KUDHW9EmNahoyjdwJdf" : {
-        "name" : "Elon Musk"
-      }
-    },
-    "host" : "Mark Zuckerberg"
-  }
 
+ 
+  {
+    "playlists" : {
+     "playlist1" : {
+        "name" : "nombre de playlist",
+        "url":"cualquiera",
+        "user-owner":"caro",
+        "songs":{
+          "name":"jaj",
+          "artist":"jej",
+          "album":"jij",
+          "user":"caro"
+        }
+      }
+      },
+   "users":{
+     "user":{
+       "name":"",
+       "foto":""
+     }
+   }
+    }
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
  
