@@ -4,8 +4,8 @@ import database from '../firebase/firebase';
 export function addToInvite(name) {
   return dispatch => {
     dispatch(addToInviteRequestedAction());
-    const guestsRef = database.ref('/guests');
-    guestsRef.push({
+    const playlist = database.ref('/playlist');
+    playlist.push({
       name
     })
     .then(() => {
